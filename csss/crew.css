@@ -26,7 +26,7 @@ body{
   z-index: -1; /* Optional: to stay behind other content */
 }
 h3{
-    padding-top: 20px;
+    padding: 20px;
 }
 nav{
     position: relative;
@@ -113,6 +113,7 @@ span{
     padding: 40px;
 }
 .slide-content{
+   
     flex: 1;
     max-width: 50%;
 }
@@ -136,6 +137,9 @@ span{
     border-radius: 8px;
 }
 .carousel-dots{
+    position: relative;
+    bottom: 200px;
+    right: 400px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -163,6 +167,12 @@ span{
     }
     .slide-content, .slide img{
         max-width: 100%;
+    }
+    .carousel-dots{
+        position: relative;
+        bottom: 200px;
+        right: 0;
+        margin-top: 20px;
     }
 }
 
