@@ -100,6 +100,7 @@ span{
 p{
     text-align: center;
 }
+
 .tab-btn{
     padding: 0.8rem;
     font-family: inherit;
@@ -152,6 +153,9 @@ h5{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
+}
+.about-content{
+    padding-bottom: 80px;
 }
 
 @media (max-width:767px) {

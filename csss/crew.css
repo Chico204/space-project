@@ -23,6 +23,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   overflow-y: scroll;
+  padding-bottom: 100px;
   z-index: -1; /* Optional: to stay behind other content */
 }
 h3{
@@ -101,6 +102,7 @@ span{
 }
 .carousel-track{
     display: flex;
+   
     transition: transform 0.5s ease-in-out;
     width: 100%;
 }
@@ -170,7 +172,7 @@ span{
     }
     .carousel-dots{
         position: relative;
-        bottom: 200px;
+        bottom: 0;
         right: 0;
         margin-top: 20px;
     }
