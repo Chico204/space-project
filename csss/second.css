@@ -143,6 +143,8 @@ h5{
     padding: 10px ;
 }
 .graph{
+    margin: 35px;
+    border-top: 2px solid grey;
     padding-top: 30px;
 }
 .graph p{
