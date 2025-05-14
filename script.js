@@ -6,6 +6,8 @@ hamburger.addEventListener('click',function(){
 
 
 
+
+
 const track = document.querySelector('.carousel-track');
 const slides = Array.from(document.querySelectorAll('.slide'));
 const dots = document.querySelectorAll('.dot');
