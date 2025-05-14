@@ -136,6 +136,7 @@ span{
 .slide img{
     max-width: 45%;
     height: auto;
+   
     border-radius: 8px;
 }
 .carousel-dots{
