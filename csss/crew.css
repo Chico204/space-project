@@ -163,7 +163,7 @@ span{
     cursor: grabbing;
     transition: none;
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
     .slide{
         flex-direction: column-reverse;
         text-align: center;

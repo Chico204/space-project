@@ -167,7 +167,7 @@ h5{
          top: 460px;
     }
 }
-@media(min-width: 800px){
+@media(min-width: 900px){
     .hamburger{
         display: none;
     }
@@ -198,6 +198,7 @@ h5{
 .content.activ{
     display: flex;
     justify-content: space-around;
+   
 }
 .cont{
     display: flex;
@@ -212,7 +213,7 @@ text-align: left;
 }
 .btn-container{
    
-    padding-left:200px;
+    padding-left: 200px;
    
 }
 h3{

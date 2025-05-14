@@ -154,7 +154,7 @@ h3{
 }
 
 
-@media(min-width: 1024px){
+@media(min-width: 900px){
     .hamburger{
         display: none;
     }
